@@ -9,6 +9,7 @@ import Index from "./pages/Index.tsx";
 import ScamDetector from "./pages/ScamDetector";
 import Insights from "./pages/Insights";
 import Learn from "./pages/Learn";
+import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
               <Route path="/scam" element={<ScamDetector />} />
               <Route path="/insights" element={<Insights />} />
               <Route path="/learn" element={<Learn />} />
+              <Route path="/profile" element={<Profile />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </AppLayout>
