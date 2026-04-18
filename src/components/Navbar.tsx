@@ -20,6 +20,7 @@ export default function Navbar() {
     { to: "/scam", label: t("nav_scam") },
     { to: "/insights", label: t("nav_insights") },
     { to: "/learn", label: t("nav_learn") },
+    { to: "/profile", label: t("nav_profile") },
   ];
 
   const isActive = (to: string) => to === "/" ? loc.pathname === "/" : loc.pathname.startsWith(to);
