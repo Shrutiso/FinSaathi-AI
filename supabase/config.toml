@@ -1,1 +1,10 @@
 project_id = "waarxawupawdeimdmxdr"
+
+[functions.analyze-scam]
+verify_jwt = false
+
+[functions.financial-insights]
+verify_jwt = false
+
+[functions.finance-chat]
+verify_jwt = false
